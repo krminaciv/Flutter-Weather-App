@@ -207,18 +207,21 @@ class _HomePageState extends State<HomePage> {
                 //currentWeather("${data!.city}", "${data!.temp}", "${data!.region}", "${data!.date}", "${data!.imgUrl}"),
                 currentWeather("${data!.city}", "${data!.region}", "${data!.temp}", "${data!.icon}", "${data!.date}"),
                 Container(
-                  height: 80,
+                  height: 60,
                   child: Divider(color: LIGHT_TEXT_2, indent: 40, endIndent: 40,)
                 ),
                 //additionalWeather("${data!.feelsLike}", "${data!.wind}", "${data!.humidity}"),
-                additionalWeather("${data!.feelsLike}", "${data!.wind}", "${data!.humidity}"),
+                additionalWeather("${data!.feelsLike}", "${data!.wind}", "${data!.humidity}",
+                                    "${data!.gust}", "${data!.visibility}", "${data!.uv}"),
+                //Container(height: 20,),
+                //additionalWeather("${data!.gust}", "${data!.visibility}", "${data!.uv}"),
                 Container(
-                  height: 80,
+                  height: 60,
                   child: Divider(color: LIGHT_TEXT_2, indent: 40, endIndent: 40,)
                 ),
-                Container(height: 10,),
-                //forecastWeather("${data2.temp_1}", "${data2.temp_2}", "${data2.temp_3}", "${data2.temp_4}", "${data2.temp_5}",
-                                  //"${data!.img_1}", "${data!.img_2}", "${data!.img_3}"),
+                //Container(height: 5,),
+                forecastWeather("${data!.day_1}", "${data!.temp_1}", "${data!.icon_1}", "${data!.day_2}", "${data!.temp_2}", "${data!.icon_2}",
+                                  "${data!.day_3}", "${data!.temp_3}", "${data!.icon_3}"),
             ])
         
          )   
