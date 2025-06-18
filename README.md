@@ -9,10 +9,9 @@ A simple Flutter application that shows the current weather and forecast using t
 - Clean and minimal UI
 - Responsive design
 
-## 🔑 API Key
+## API Key
 
 To use this app, you need an API key from OpenWeatherMap:
 
-1. Create a free account at [openweathermap.org](https://openweathermap.org/api)
-2. Get your API key
-3. Add it to your app in a `.env` file or directly in the code (for demo purposes)
+- Get your API key at [openweathermap.org](https://openweathermap.org/api)
+
