@@ -1,46 +1,18 @@
-Weather Forecast App
+# Weather Forecast App ☀️🌧️
 
-This Flutter mobile application provides current and future weather forecasts for any location worldwide, powered by the OpenWeatherMap API.
-Features
+A simple Flutter application that shows the current weather and forecast using the [OpenWeatherMap API](https://openweathermap.org/api).
 
-    Current Weather: Displays real-time conditions.
+## Features
 
-    Future Forecast: Shows upcoming weather trends.
+- Get real-time weather data by city name
+- Shows temperature, weather conditions, and icons
+- Clean and minimal UI
+- Responsive design
 
-    City Search: Easy lookup for specific cities.
+## 🔑 API Key
 
-    Detailed View: Includes temperature, humidity, wind speed, and weather description.
+To use this app, you need an API key from OpenWeatherMap:
 
-Technologies Used
-
-    Flutter & Dart: For cross-platform mobile development.
-
-    OpenWeatherMap API: Data source (https://openweathermap.org/api).
-
-    HTTP package: For API communication.
-
-Installation
-
-    Clone the repository: git clone <YOUR_REPO_URL>
-
-    Install dependencies: flutter pub get
-
-    Get OpenWeatherMap API Key:
-
-        Sign up at OpenWeatherMap API.
-
-        Create lib/api_config.dart and add your key:
-
-        const String openWeatherMapApiKey = 'YOUR_API_KEY_HERE';
-
-        Never commit your API key to public repositories!
-
-Running the App
-
-    Connect a device or start an emulator.
-
-    Run: flutter run
-
-License
-
-This project is licensed under the MIT License. (See LICENSE.md if applicable).
+1. Create a free account at [openweathermap.org](https://openweathermap.org/api)
+2. Get your API key
+3. Add it to your app in a `.env` file or directly in the code (for demo purposes)
